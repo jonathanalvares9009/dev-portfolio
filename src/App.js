@@ -7,9 +7,9 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+// import portfolio_shared_data from "public/portfolio_shared_data.json";s
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -42,7 +42,7 @@ class App extends Component {
       .setAttribute("filter", "brightness(40%)");
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,
@@ -64,19 +64,21 @@ class App extends Component {
     });
   }
 
-  loadSharedData() {
-    $.ajax({
-      url: `portfolio_shared_data.json`,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
+  async loadSharedData() {
+    fetch("portfolio_shared_data.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        console.log(response);
+        return response.json();
+      })
+      .then((data) => {
         this.setState({ sharedData: data });
         document.title = `${this.state.sharedData.basic_info.name}`;
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
+      });
   }
 
   render() {
