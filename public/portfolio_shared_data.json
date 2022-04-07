@@ -13,16 +13,26 @@
     "social": [
       {
         "name": "github",
-        "url": "https://github.com",
+        "url": "https://github.com/jonathanalvares9009",
         "class": "fab fa-github"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "name": "G-Mail",
+        "url": "mailto:alvaresjonathan599@gmail.com",
+        "class": "fab fa-google"
+      },
+      {
+        "name": "Y-Mail",
+        "url": "mailto:alvares.jonthan@yahoo.com",
+        "class": "fab fa-yahoo"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/jonathanalvares",
+        "class": "fab fa-linkedin"
       }
     ],
-    "image": "myProfile.jpg"
+    "image": "public/images/myProfile.jpg"
   },
   "skills": {
     "icons": [
