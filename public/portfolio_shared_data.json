@@ -30,6 +30,11 @@
         "name": "linkedin",
         "url": "https://linkedin.com/in/jonathanalvares",
         "class": "fab fa-linkedin"
+      },
+      {
+        "name": "phone",
+        "url": "tel:+918208912472",
+        "class": "fas fa-phone"
       }
     ],
     "image": "public/images/myProfile.jpg"
