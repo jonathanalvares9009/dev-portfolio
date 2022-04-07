@@ -81,28 +81,68 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "P360",
+      "title": "Software Engineer Intern",
+      "years": "04.2021 - Present",
       "technologies": [
-        "REST API",
-        "RxJS",
+        "HTML",
+        "CSS",
         "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Vue.js",
+        "Node.js",
+        "Express.js",
+        "SQL",
+        "Git",
+        "GitHub",
+        "Swift",
+        "Xcode"
+      ],
+      "description": [
+        "Contributing to the Zing platform, which makes communication in the pharma industry as frictionless as possible",
+        "Worked on the web frontend, iOS project and the backend",
+        "Developed UI components for the web and iOS applications",
+        "Helped the team by debugging, modularising and writing test cases for the product",
+        "Helped the team reach the desired state of the product",
+        "Documented the API and the codebase",
+        "Created prototypes and then integrated into the product"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Oppia Foundation",
+      "title": "Open Source Contributor",
+      "years": "03.2021 - 08.2021",
+      "technologies": [
+        "Kotlin",
+        "XML",
+        "Bazel",
+        "Git",
+        "GitHub",
+        "Android Studio"
+      ],
+      "description": [
+        "Created new UI and also corrected some UI regressions",
+        "Helped move the project use Bazel build system instead of Gradle"
+      ]
+    },
+    {
+      "company": "GirlScript Summer of Code",
+      "title": "Open Source Contributor",
+      "years": "03.2021 - 06.2021",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Kotlin",
+        "Git",
+        "GitHub",
+        "Android Studio",
+        "VS Code"
+      ],
+      "description": [
+        "Contributed to android projects",
+        "Helped onboard new contributors"
+      ]
     }
   ]
 }
