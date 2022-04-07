@@ -36,8 +36,7 @@
         "url": "tel:+918208912472",
         "class": "fas fa-phone"
       }
-    ],
-    "image": "public/images/myProfile.jpg"
+    ]
   },
   "skills": {
     "icons": [
@@ -52,24 +51,9 @@
         "level": "95"
       },
       {
-        "name": "Angular",
-        "class": "devicon-angularjs-plain",
-        "level": "80"
-      },
-      {
-        "name": "TypeScript",
-        "class": "devicon-typescript-plain",
-        "level": "90"
-      },
-      {
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
         "level": "70"
-      },
-      {
-        "name": "Sass",
-        "class": "devicon-sass-original",
-        "level": "75"
       },
       {
         "name": "Bootstrap",
@@ -77,13 +61,53 @@
         "level": "85"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
+        "name": "React JS",
+        "class": "devicon-react-original",
+        "level": "80"
+      },
+      {
+        "name": "Vue JS",
+        "class": "devicon-vuejs-plain",
         "level": "65"
       },
       {
-        "name": "MySql",
+        "name": "Node JS",
+        "class": "devicon-nodejs-plain",
+        "level": "60"
+      },
+      {
+        "name": "SQL",
         "class": "devicon-mysql-plain",
+        "level": "80"
+      },
+      {
+        "name": "Express JS",
+        "class": "devicon-express-original",
+        "level": "60"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "Data Structures & Algorithms",
+        "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "Problem Solving",
+        "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      },
+      {
+        "name": "GitHub",
+        "class": "devicon-github-plain",
         "level": "60"
       }
     ]
