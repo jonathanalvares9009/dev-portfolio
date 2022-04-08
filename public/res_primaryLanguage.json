@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Jonathan Alvares. I believe technology has the power to make the world a better place. I love reading books, helping people and learning new things. I'm interested in solving problems in the fintech indeustry and making finance available to everyone. Still figuring out more :)",
+    "description": "👋 I'm Jonathan Alvares. I believe technology has the power to make the world a better place. I love reading books, helping people and learning new things. I'm interested in solving problems in the fintech industry and making finance available to everyone. Still figuring out more :)",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,26 +11,34 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Payload to JSON",
+      "startDate": "2022",
+      "description": "I work as a backend engineer, I had to put the browser payload a lot of times in Postman but it took a lot of my time to format it to JSON. I started finding for converters but couldn't find one that worked for me. I decided to make my own and I'm proud of it. It's a simple tool that converts a payload to JSON.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/payload-json/p1.jpg",
+        "images/portfolio/payload-json/p2.jpg"
       ],
-      "url": "",
+      "url": "https://jonathanalvares9009.github.io/payload-json/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-react-plain",
+          "name": "React JS"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "GitHub"
         }
       ]
     },
