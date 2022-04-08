@@ -22,7 +22,11 @@ class Experience extends Component {
         });
 
         var description = work.description.map((desc, i) => {
-          return <li className="vertical-timeline-element-subtitle">{desc}</li>;
+          return (
+            <li key={desc} className="vertical-timeline-element-subtitle">
+              {desc}
+            </li>
+          );
         });
 
         return (
