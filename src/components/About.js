@@ -3,6 +3,9 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     if (this.props.resumeBasicInfo) {
+      var profilePic = this.props.sharedProfile.profile_pic;
+    }
+    if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
@@ -20,9 +23,7 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    src={
-                      "https://media-exp1.licdn.com/dms/image/C4D03AQFVsTo2idEcIg/profile-displayphoto-shrink_400_400/0/1635828554152?e=1654732800&v=beta&t=zHYo7VBF2S2YAJ3sICBt1gtDGtVpHNjnyvqJ_vwBF3U"
-                    }
+                    src={profilePic}
                     alt="Avatar placeholder"
                   />
                 </span>
