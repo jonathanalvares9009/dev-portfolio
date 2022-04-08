@@ -115,6 +115,21 @@
         "name": "Azure",
         "class": "devicon-azure-plain",
         "level": "60"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
+      {
+        "name": "Flask",
+        "class": "devicon-flask-plain",
+        "level": "60"
+      },
+      {
+        "name": "Ethereum",
+        "class": "fab fa-ethereum",
+        "level": "60"
       }
     ]
   }
