@@ -109,6 +109,11 @@
         "name": "GitHub",
         "class": "devicon-github-plain",
         "level": "60"
+      },
+      {
+        "name": "Azure",
+        "class": "devicon-azure-plain",
+        "level": "60"
       }
     ]
   }
