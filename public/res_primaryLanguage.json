@@ -15,8 +15,8 @@
       "startDate": "2022",
       "description": "I work as a backend engineer, I had to put the browser payload a lot of times in Postman but it took a lot of my time to format it to JSON. I started finding for converters but couldn't find one that worked for me. I decided to make my own and I'm proud of it. It's a simple tool that converts a payload to JSON.",
       "images": [
-        "images/portfolio/payload-json/p1.jpg",
-        "images/portfolio/payload-json/p2.jpg"
+        "images/portfolio/payload-json/p1.png",
+        "images/portfolio/payload-json/p2.png"
       ],
       "url": "https://jonathanalvares9009.github.io/payload-json/",
       "technologies": [
