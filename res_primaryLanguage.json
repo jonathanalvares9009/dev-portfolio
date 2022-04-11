@@ -11,6 +11,44 @@
   },
   "projects": [
     {
+      "title": "Quiz App",
+      "startDate": "2022",
+      "description": "A fun quiz app that tests your knowledge of the world. It's a quiz with multiple choice questions. I made it with React JS and CSS.",
+      "images": [
+        "images/portfolio/quiz-app/p1.png",
+        "images/portfolio/quiz-app/p2.png",
+        "images/portfolio/quiz-app/p3.png",
+        "images/portfolio/quiz-app/p4.png"
+      ],
+      "url": "https://jonathanalvares9009.github.io/quiz/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React JS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-git-plain",
+          "name": "Git"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "GitHub"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind CSS"
+        }
+      ]
+    },
+    {
       "title": "Payload to JSON",
       "startDate": "2022",
       "description": "I work as a backend engineer, I had to put the browser payload a lot of times in Postman but it took a lot of my time to format it to JSON. I started finding for converters but couldn't find one that worked for me. I decided to make my own and I'm proud of it. It's a simple tool that converts a payload to JSON.",
