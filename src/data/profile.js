@@ -1,4 +1,4 @@
-module.exports = {
+const portfolio = {
   basic_info: {
     name: "Jonathan Alvares",
     titles: [
@@ -134,3 +134,5 @@ module.exports = {
     ],
   },
 };
+
+export default portfolio;

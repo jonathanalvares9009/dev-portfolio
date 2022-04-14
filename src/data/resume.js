@@ -1,4 +1,4 @@
-module.exports = {
+const resume = {
   basic_info: {
     description_header: "Hi",
     description:
@@ -152,3 +152,5 @@ module.exports = {
     },
   ],
 };
+
+export default resume;
