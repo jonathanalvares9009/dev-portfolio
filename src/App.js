@@ -6,6 +6,8 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import profile from "./data/profile";
+import resume from "./data/resume";
 
 class App extends Component {
   constructor(props) {
@@ -16,40 +18,9 @@ class App extends Component {
     };
   }
 
-  async componentDidMount() {
-    this.loadSharedData();
-    this.loadResumeFromPath();
-  }
-
-  loadResumeFromPath() {
-    fetch("res_primaryLanguage.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        this.setState({ resumeData: data });
-      });
-  }
-
-  async loadSharedData() {
-    fetch("portfolio_shared_data.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
-      });
+  componentDidMount() {
+    this.setState({ sharedData: profile });
+    this.setState({ resumeData: resume });
   }
 
   render() {
